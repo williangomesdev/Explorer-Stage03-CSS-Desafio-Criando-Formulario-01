@@ -4,6 +4,8 @@
   box-sizing: border-box;
   text-decoration: none;
   border: 0;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -37,6 +39,11 @@ body::before {
   background: var(--background-header);
 }
 
+h1,
+legend {
+  font-family: "Staatliches", cursive;
+}
+
 .page {
   width: 75rem;
   margin: 0 auto;
@@ -60,7 +67,7 @@ footer {
   align-items: center;
   justify-content: center;
   height: 16.8rem;
-  background:var(--background-footer);
+  background: var(--background-footer);
   border-radius: 0 0 20px 20px;
   margin-bottom: 36.6rem;
 }
