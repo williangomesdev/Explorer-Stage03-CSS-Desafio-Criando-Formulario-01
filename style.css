@@ -4,3 +4,17 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+:root {
+  --background-body: #e5e5e5e5;
+  --background-header: #535971;
+  --background-form: #ffffff;
+  --background-input: #fafafc;
+  --background-footer:var(--background-header);
+  --fc-light-text: var(--background-form);
+  --fc-form-dark-legend: var(--background-header);
+  --fc-form-dark-label: #4e4958;
+  --fc-form-dark-label-span: #c1bccc;
+  --line-separator: 1px solid #e6e6f0;
+  --input-border: var(var(--line-separator));
+}
