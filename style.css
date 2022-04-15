@@ -5,6 +5,7 @@
   text-decoration: none;
   border: 0;
   font-weight: 400;
+  font-style: normal;
   font-family: "Poppins", sans-serif;
 }
 
@@ -51,6 +52,12 @@ legend {
 
 header {
   margin-top: 14rem;
+}
+
+header h1 {
+  font-size: 4.8rem;
+  line-height: 6rem;
+  color: var(--fc-light-text);
 }
 
 form {
