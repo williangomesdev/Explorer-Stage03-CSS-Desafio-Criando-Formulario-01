@@ -175,7 +175,9 @@ form fieldset .input-wrapper .first-mentor-schedule {
   gap: 1rem;
 }
 
-form fieldset footer {
+footer {
+  width: 75rem;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,4 +185,21 @@ form fieldset footer {
   background: var(--background-footer);
   border-radius: 0 0 20px 20px;
   margin-bottom: 36.6rem;
+}
+
+footer input {
+  width: 58.8rem;
+  padding: 1.5rem 4rem;
+  border-radius: 2rem;
+  background: var(--background-submit-button);
+  font-size: 2rem;
+  font-family: "Staatliches", cursive;
+  color: var(--fc-light-text);
+  line-height: 2.6rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+footer input:hover{
+  filter: brightness(0.8);
 }
