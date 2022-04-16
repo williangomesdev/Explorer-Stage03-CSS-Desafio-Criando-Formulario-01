@@ -109,10 +109,6 @@ form fieldset input {
   height: 5.6rem;
 }
 
-input:invalid{
-  border: 2px solid red;
-}
-
 form fieldset:nth-child(1) {
   padding-top: 6.4rem;
 }
@@ -148,7 +144,9 @@ form fieldset .input-wrapper #username,
 form fieldset .input-wrapper #lastname,
 form fieldset .input-wrapper #email,
 form fieldset .input-wrapper #password,
-form fieldset .input-wrapper#mentor-name {
+form fieldset .input-wrapper#mentor-name,
+form fieldset .input-wrapper .mentor-schedule .first-mentor-of-hour,
+form fieldset .input-wrapper .mentor-schedule .first-mentor-up-to-hour {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
@@ -172,7 +170,7 @@ form fieldset:nth-child(3) {
   padding-bottom: 6.4rem;
 }
 
-#second-minority-service{
+#second-minority-service {
   margin-top: 1.6rem;
 }
 
@@ -191,7 +189,20 @@ form fieldset .input-wrapper .first-mentor-date {
 form fieldset .input-wrapper .mentor-schedule {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 1rem;
+}
+
+form fieldset .input-wrapper .mentor-schedule .first-mentor-of-hour,
+form fieldset .input-wrapper .mentor-schedule .first-mentor-up-to-hour {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+#of-hour,
+#up-to-hour {
+  width: 14rem;
 }
 
 footer {
