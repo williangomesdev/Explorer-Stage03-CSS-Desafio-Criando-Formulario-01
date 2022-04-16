@@ -6,6 +6,11 @@
 	Projeto desenvolvido na  formação explorer da rocketseat
 </h3>&nbsp;
 
+<p align="center">
+	<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
+	<img src="https://img.shields.io/github/repo-size/williangomesdev/Explorer-Stage03-CSS-Desafio-Criando-Formulario-01 ?color=green"/>
+</p>
+
 <h4 align="center">
 	Status: 🚀 Finished
 </h4>
