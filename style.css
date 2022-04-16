@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  border: 0;
+  border: none;
   font-weight: 400;
   font-style: normal;
   font-family: "Poppins", sans-serif;
@@ -21,7 +21,7 @@
   --fc-form-dark-label: #4e4958;
   --fc-form-dark-label-span: #c1bccc;
   --line-separator: 1px solid #e6e6f0;
-  --input-border: var(--line-separator);
+  --input-border: #e6e6f0;
   font-size: 62.5%;
 }
 
@@ -104,8 +104,7 @@ form fieldset label span {
 
 form fieldset input {
   background: var(--background-input);
-  /* border: var(--input-border); */
-  border: 1px solid red;
+  border: 1px solid var(--input-border);
   border-radius: 0.8rem;
   height: 5.6rem;
 }
@@ -129,6 +128,14 @@ form fieldset .input-wrapper #email {
   grid-column: 1/3;
 }
 
+form fieldset .input-wrapper #email label span {
+  padding-left: 0.9rem;
+}
+
+form fieldset .input-wrapper #password label span {
+  padding-left: 0.5rem;
+}
+
 form fieldset .input-wrapper #password {
   grid-column: 1/3;
 }
@@ -147,6 +154,10 @@ form fieldset:nth-child(2) {
   padding-top: 3rem;
 }
 
+form fieldset .fieldset-wrapper #mentor-name label span {
+  padding-left: 0.7rem;
+}
+
 form fieldset:nth-child(2) .line:nth-of-type(1),
 form fieldset:nth-child(3) .line:nth-of-type(1) {
   margin: 0.8rem 0 3.2rem 0;
@@ -155,6 +166,10 @@ form fieldset:nth-child(3) .line:nth-of-type(1) {
 form fieldset:nth-child(3) {
   padding-top: 3.2rem;
   padding-bottom: 6.4rem;
+}
+
+#second-minority-service{
+  margin-top: 1.6rem;
 }
 
 form fieldset .input-wrapper#first-mentor,
@@ -169,7 +184,7 @@ form fieldset .input-wrapper .first-mentor-date {
   flex-direction: column;
 }
 
-form fieldset .input-wrapper .first-mentor-schedule {
+form fieldset .input-wrapper .mentor-schedule {
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -200,6 +215,6 @@ footer input {
   cursor: pointer;
 }
 
-footer input:hover{
+footer input:hover {
   filter: brightness(0.8);
 }
