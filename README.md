@@ -1,5 +1,5 @@
 <h1 align="center">
-	Explorer-Stage03-CSS Avançado
+	Explorer-Stage03-CSS-Desafio Criando Formulário(01)
 </h1>
 
 <h3 align="center">
@@ -19,14 +19,13 @@
 
 ## Sobre
 
-Projeto simples de uma página, focado em uso de variáveis CSS,cores HSL, mobile first,animações, alinhamentos dos elementos com GRID
+Desafios proposto pelo programa de formação explorer da rocketseat, onde foi proposto replicarmos um layout de um formulário de cadastro de mentoria, abordamos nesse projeto conceito de edição de formulários, posicionamento de elementos e validação de informações.  
 
 ## Funcionalidades
 
-- [x] Variáveis em propriedades comuns do CSS
-- [x] Estilização para mobile first
-- [x] Animações e interações com as fotos
-- [x] Alinhamento em GRID
+- [x] Validações de informações inseridas no formulário
+- [x] Alinhamento dos elementos usando Flexbox e GRID
+- [x] Efeito hover no botão salvar.
 
 ## Tecnologias
 
@@ -34,15 +33,7 @@ Projeto simples de uma página, focado em uso de variáveis CSS,cores HSL, mobil
 <img src="https://img.shields.io/badge/Html5-05122A?style=flat&logo=html5" alt="html5 Badge" height="25">&nbsp;
 
 ## Imagens
-<br/>
-<img src="./gitImg/127.0.0.1_5500_Projeto03_(Nest Hub Max) (1).png"/>
-<hr/>
-<br/>
-<div style="display:grid;grid-template-columns:2fr 1fr;">
-<img src="./gitImg/127.0.0.1_5500_Projeto03_(iPad).png"width="400"/>
-<img src="./gitImg/127.0.0.1_5500_Projeto03_(Moto G4).png"width="200"/>
-</div>
-<br/>
+<p align="center"><img src="./gitImg/fullscreen.png"></p>
 
 ## Autor
 
